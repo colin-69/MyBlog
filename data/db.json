@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "title": "my second upload",
+      "body": "{!isPending &&<button>add blog</button>} heres some code to display 'add blog' if isPending is false",
+      "author": "yoshi",
+      "id": 4
+    },
+    {
+      "title": "Third Post!!!!!!!!",
+      "body": "Third post to test useHistory to redirect user after adding a new blog!",
+      "author": "mario",
+      "id": 5
+    },
+    {
+      "title": "Redirect me home",
+      "body": "test post to see if we are redirected to home page after adding new blog",
+      "author": "yoshi",
+      "id": 6
+    },
+    {
+      "title": "I learned a lot",
+      "body": "first intro to react and json web server",
+      "author": "yoshi",
+      "id": 7
+    },
+    {
+      "title": "try deleting a blog ",
+      "body": "click on a blog then click delete ",
+      "author": "mario",
+      "id": 8
+    }
+  ]
+}
