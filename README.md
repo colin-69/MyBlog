@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# MyBlog 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to MyBlog a simple blog application that allows you to create and delete plog posts. This project was my first introduction to React. In this project I learned the fundamentals of react including components, useState hooks, props, react router, and more. I also learned the basics of storing my data localy with JSON Server. This was a fun beginner project to introduce me to the basics, I look forward to building on this knowledge in future projects. See images below to see code highlights and the blog. 
 
-## Available Scripts
+## Blog 
 
-In the project directory, you can run:
+![MB1](https://user-images.githubusercontent.com/61571857/114415792-a19f9080-9b75-11eb-81e2-4d716b5bfc07.JPG)
+Here is the home screen of the website. You can view past blog posts as well as click on them to view the entire post. In the top navbar you can go to a different page to create a new post or go back home. 
 
-### `npm start`
+![MB2](https://user-images.githubusercontent.com/61571857/114415832-ac5a2580-9b75-11eb-96ca-5709529aa38c.JPG)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This is the create blog post page where you can post whatever you want to say. In this application there are two predecided users to choose from so you cant create your own account. In future projects I will learn and add authorization to allow signup and sign in features. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Code 
 
-### `npm test`
+![MB3](https://user-images.githubusercontent.com/61571857/114416541-681b5500-9b76-11eb-9e6c-538c1752da87.JPG)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Here is how the created posts are saved to the JSON Server. 
 
-### `npm run build`
+![MB4](https://user-images.githubusercontent.com/61571857/114416988-d5c78100-9b76-11eb-9a19-1d048e1ca147.JPG)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This is the home page that displays all the blogs. 
