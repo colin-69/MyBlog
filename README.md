@@ -20,3 +20,11 @@ Here is how the created posts are saved to the JSON Server.
 ![MB4](https://user-images.githubusercontent.com/61571857/114416988-d5c78100-9b76-11eb-9a19-1d048e1ca147.JPG)
 
 This is the home page that displays all the blogs. 
+
+
+##### To start application
+
+npm start
+
+npx start json-server --watch data/db.json --port 8000
+
